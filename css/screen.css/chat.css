@@ -1,0 +1,233 @@
+.status-bar_chg {
+    display:flex;
+    justify-content: center;
+    padding: 5px 3px;
+    background-color:rgb(211, 206, 246);
+}
+.chg-header {
+
+    top: 30px;
+}
+
+.status-bar__column {
+    width: 33%;
+}
+.status-bar__column:first-child span {
+    margin-right: 5px;
+}
+.status-bar__column:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+.status-bar__column:last-child {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.status-bar__column .fa-battery-full {
+    margin: 0px 5px;
+}
+.navBar-link__home-chgver i {
+    font-size: 40px;
+    margin: 0 20px;
+    color: rgba(0,0,0,0.3); 
+}
+.navBar-link__chat-chgver  i {
+    font-size: 40px;
+    margin: 0 20px;
+    color: black;
+}
+.navBar-link__search-chgver  i {
+    font-size: 40px;
+    margin: 0 20px;
+    color: rgba(0,0,0,0.3); 
+}
+.navBar-link__user-chgver  i {
+    font-size: 40px;
+    margin: 0 20px;
+    color: rgba(0,0,0,0.3); 
+}
+
+.chgver-background {
+    width: 100%;
+    height: 87vh;
+    position: relative;
+    background-color: rgb(211, 206, 246);
+}
+.status-mark-chgver {
+    background-color:rgb(211, 206, 246);
+    width: 100%;
+    height: 45px;
+    display: flex;
+    font-weight: 800;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.status-mark-chgver  i {
+    font-size: 32px;
+    position: absolute;
+    left: 10px;
+    top: 35px;
+}
+.status-mark-chgver span {
+    position: absolute;
+    left: 30%;
+    font-size: 25px;
+    width: 250px;
+}
+.status-mark-chgver >span > img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+.date {
+    width: 205px;
+    height: 27px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 10px;
+    position: absolute;
+    top: 30px;
+    left: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.enter {
+    width: 190px;
+    height: 30px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 10px;
+    position: absolute;
+    top: 70px;
+    left: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+@keyframes ani {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        transform: none;
+        opacity: 1;
+    }
+}
+.profile {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 0.5px solid black;
+    border-radius: 15px;
+    top: 130px;
+    left: 30px;
+    animation: ani 0.8s linear;
+}
+.profile-id {
+    position: absolute;
+    top: 128px;
+    left: 90px;
+    font-weight: 400;
+    animation: ani 0.8s linear;
+}
+.chat1 {
+    width: 300px;
+    height: 160px;
+    background-color: white;
+    position: absolute;
+    top: 150px;
+    left: 90px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    animation: ani 0.8s linear;
+}
+.chat1 :first-child {
+    margin: 15px 12px;
+}
+.chat1 :nth-child(2) {
+    margin-left: 12px;
+    margin-bottom: 5px;
+}
+.chat1 :last-child {
+    margin-left: 12px;
+}
+.time {
+    position: absolute;
+    top: 290px;
+    left: 397px;
+    color: rgba(0,0,0,0.5);
+    animation: ani 0.8s linear;
+}
+.chat2 {
+    width: 60px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    top: 380px;
+    right: 40px;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    display: flex;
+    flex-direction: row;
+    font-size: 17px;
+    background-color: #F2DA00;
+    animation: ani 0.8s linear;
+}
+.chat2 span {
+    position: absolute;
+    right:10px;
+    top: 10px;
+}
+.time2 {
+    position: absolute;
+    top: 400px;
+    right: 116px;
+    color: rgba(0,0,0,0.5);
+    animation: ani 0.8s linear;
+}
+
+.keyboard {
+    position: absolute;
+    width: 100%;
+    height: 35px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    justify-content: space-between;
+}
+
+.keyboard input {
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,0.5);
+    margin-top: 17px;
+    margin-left: 20px;
+}
+
+.keyboard button {
+    width: 35px;
+    height: 35px;
+    border-radius: 17.5px;
+    margin-right: 20px;
+    margin-top: 17px;
+    border: 1px solid rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.fa-arrow-up {
+    font-size: 20px;
+    color: rgba(0,0,0,0.5);
+}
+
+
+
